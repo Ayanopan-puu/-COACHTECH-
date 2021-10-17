@@ -97,7 +97,9 @@ footer {
   align-items: center;
   font-size: 12px;
 }
-
+.footer-all {
+  width: 100%;
+}
 .footer-copyright {
 margin: 0 auto;
 float: left;
@@ -111,7 +113,6 @@ float: left;
 .footer-nav-item {
     text-align: center;
     margin-top: 10px;
-    width: 100%;
   }
 
 
