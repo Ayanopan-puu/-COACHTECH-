@@ -24,7 +24,6 @@ header {
 
 .header-right {
   font-size: 30px;
-  width: 70px;
 }
 
 .header-nav-li {
@@ -42,6 +41,7 @@ header {
   align-items: center;
   background: url("../img/mv.png") center / cover;
   color: rgb(97, 64, 82);
+  line-height: 1.2;
 }
 
 .top-topic {
@@ -55,36 +55,42 @@ header {
 
 .feeling {
   font-size: 20px;
+  height: 250px;
   color: #fff;
   background-color: black;
-  margin: 0 auto;
-  display: inline-block;
 }
-
-.top-service-ttl{
+.feeling-font {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.feeling p {
+  margin-top: 20px;
+}
+.top-service-ttl {
   text-align: center;
 }
 
-.top-service-list{
+.top-service-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.top-service-item{
+.top-service-item {
   width: 50%;
   margin-top: 20px;
 }
 
-.top-service-item:nth-child(2n){
+.top-service-item:nth-child(2n) {
   margin-right: 0;
 }
 
-.top-service-item-ttl{
+.top-service-item-ttl {
   font-size: 18px;
 }
 
-.top-service-a{
+.top-service-a {
   display: flex;
   text-align: center;
 }
@@ -101,8 +107,8 @@ footer {
   width: 100%;
 }
 .footer-copyright {
-margin: 0 auto;
-float: left;
+  margin: 0 auto;
+  float: left;
 }
 
 .footer-nav-list {
@@ -111,8 +117,6 @@ float: left;
 }
 
 .footer-nav-item {
-    text-align: center;
-    margin-top: 10px;
-  }
-
-
+  text-align: center;
+  margin-top: 10px;
+}
