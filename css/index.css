@@ -229,6 +229,33 @@ header {
   top: 45%;
   left: 40%;
 }
+.form {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  line-height: 2em;
+  background-color: lightgray;
+}
+.form-h1 {
+  padding-top: 40px;
+  font-size: x-large;
+}
+.form-p {
+  margin-bottom: 50px;
+}
+.form-a {
+  margin: 0 auto;
+  color: white;
+  background-color: red;
+  width: 20%;
+}
+.form-a a {
+  display: block;
+  line-height: 2.5em;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+}
 footer {
   padding: 30px 0;
   color: #fff;
@@ -252,6 +279,10 @@ footer {
 }
 
 .footer-nav-item {
+  position: relative;
   text-align: center;
-  margin-top: 10px;
+  margin-right: 10px;
+}
+.footer-nav-item span {
+  margin-left: 10px;
 }
