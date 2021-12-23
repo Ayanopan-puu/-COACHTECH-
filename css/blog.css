@@ -45,145 +45,26 @@ header {
 nav ul {
   list-style: none;
 }
-
-.top-top {
-  height: 80vh;
+.top {
+  height: 30vh;
+  background: url("../img/mv.png") center / cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../img/mv.png") center / cover;
-  color: rgb(97, 64, 82);
-  line-height: 1.2;
-}
-
-.top-topic {
-  font-size: 50px;
-  text-align: center;
-}
-.sub-topic {
-  font-size: 18px;
-  text-align: center;
-}
-
-.feeling {
-  font-size: 20px;
-  height: 300px;
   color: #fff;
-  background-color: black;
 }
-.feeling-font {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 60px;
-}
-.feeling p {
-  margin-top: 40px;
-  font-size: inherit;
-}
-.top-service {
-  margin-bottom: 70px;
-}
-.top-service-ttl {
-  text-align: center;
-  padding-top: 60px;
-  font-size: 30px;
-}
-
-.top-service-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
-}
-
-.top-service-item {
-  width: 40%;
-  margin-top: 20px;
-  margin-right: 10px;
-  margin-left: 60px;
-}
-.top-service-item-img img {
-  width: 100%;
-  height: auto;
-}
-.top-service-item:nth-child(2n) {
-  margin-right: 0;
-}
-.top-service-item-main {
-  line-height: 2em;
-}
-.top-service-item-ttl {
-  font-size: 18px;
-  font-weight: bold;
-}
-.top-service-a {
-  width: fit-content;
-  margin: 0 auto;
-}
-.top-service-a a {
-  background-color: red;
-  color: white;
-  display: block;
-  width: 250px;
-  height: 50px;
-  text-align: center;
-  line-height: 2.5em;
-  font-size: large;
-  font-weight: bold;
-}
-.news {
-  width: 100%;
-  height: 350px;
-  background-color: black;
-  margin-bottom: 20px;
-}
-.news-topic {
-  padding-top: 60px;
-  padding-bottom: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-.news-topic a {
-  background-color: red;
-  color: white;
-  line-height: 2.3em;
-  height: 40px;
-}
-.news-h1 {
-  color: white;
+.top-font {
   font-size: xx-large;
-}
-.news-main a:hover {
-  color: rgb(173, 172, 172);
-}
-.news-main {
-  width: 90%;
-  height: 60px;
-  background-color: white;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  line-height: 3em;
-}
-.news-main-p {
-  font-size: large;
-  margin-left: 20px;
-}
-.news-main-p span {
-  font-weight: bold;
-  margin-left: 10px;
-}
-.blog-topic-h2 {
-  margin: 80px 0 20px 0;
-  text-align: center;
-  font-size: xx-large;
+  font-weight: bolder;
 }
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
   justify-content: space-around;
 }
 .blog-card {
-  width: 300px;
+  width: 400px;
   height: 270px;
   margin-right: 30px;
   background-color: white;
@@ -194,49 +75,6 @@ nav ul {
 }
 .blog-img img {
   width: 300px;
-}
-.blog-detail-a a {
-  display: block;
-  line-height: 2.5em;
-  background-color: red;
-  color: white;
-  width: 250px;
-  height: 50px;
-  text-align: center;
-  margin: 0 auto;
-  font-size: large;
-  font-weight: bold;
-}
-.detail {
-  margin: 100px 0px 50px 0px;
-
-  display: flex;
-}
-.company {
-  background-color: red;
-  height: 200px;
-  width: 50%;
-  position: relative;
-}
-.company-topic {
-  color: white;
-  font-size: 30px;
-  position: absolute;
-  top: 45%;
-  left: 30%;
-}
-.recruit {
-  background-color: black;
-  height: 200px;
-  position: relative;
-  width: 50%;
-}
-.recruit-topic {
-  color: white;
-  font-size: 30px;
-  position: absolute;
-  top: 45%;
-  left: 40%;
 }
 .form {
   width: 100%;
@@ -296,41 +134,18 @@ footer {
   margin-left: 10px;
 }
 @media screen and (max-width: 768px) {
-  .wrap {
-    width: 85%;
-  }
-  .sub-topic {
-    font-size: small;
-  }
-  .feeling-font {
-    width: 85%;
-    font-size: small;
-  }
-  .top-service {
-    text-align: center;
-  }
-  .news-main-p {
-    font-size: small;
-  }
-  .wrapper {
-    display: grid;
-  }
-  .blog-card {
-    width: 100%;
-  }
-  .company-topic {
-    font-size: large;
-  }
-  .recruit-topic {
-    font-size: large;
-  }
   .form-a {
     width: 30%;
   }
   .header-nav {
     display: none;
   }
-
+  .main-list {
+    display: grid;
+  }
+  .main-img {
+    width: 100%;
+  }
   .menu {
     display: inline-block;
     width: 36px;
@@ -397,6 +212,9 @@ footer {
     margin-top: 40px;
     color: #0033cc;
     font-size: 18px;
+  }
+  .blog-card {
+    margin-left: 10%;
   }
   .in {
     transform: translateX(100%);
