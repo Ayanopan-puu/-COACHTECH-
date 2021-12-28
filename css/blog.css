@@ -60,21 +60,18 @@ nav ul {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 70px;
+  margin: 70px 0 60px 0;
   justify-content: space-around;
 }
 .blog-card {
   width: 400px;
-  height: 270px;
+  height: 300px;
   margin-right: 30px;
   background-color: white;
   position: relative;
 }
-.blog-img {
-  width: 30%;
-}
 .blog-img img {
-  width: 300px;
+  width: 100%;
 }
 .form {
   width: 100%;

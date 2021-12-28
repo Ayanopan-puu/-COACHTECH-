@@ -93,6 +93,7 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .top-service-item {
@@ -183,7 +184,7 @@ nav ul {
   justify-content: space-around;
 }
 .blog-card {
-  width: 300px;
+  width: 50%;
   height: 270px;
   margin-right: 30px;
   background-color: white;
@@ -193,7 +194,10 @@ nav ul {
   width: 30%;
 }
 .blog-img img {
-  width: 300px;
+  width: 300%;
+}
+.blog-detail-a {
+  margin-top: 60px;
 }
 .blog-detail-a a {
   display: block;
@@ -316,7 +320,7 @@ footer {
     display: grid;
   }
   .blog-card {
-    width: 100%;
+    margin: 0 auto;
   }
   .company-topic {
     font-size: large;
