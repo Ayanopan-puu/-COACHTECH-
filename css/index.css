@@ -281,9 +281,12 @@ footer {
 }
 .footer-all {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .footer-copyright {
-  margin: 0 auto;
+  margin-right: 370px;
   float: left;
 }
 
@@ -415,8 +418,11 @@ footer {
   .in {
     transform: translateX(100%);
   }
+  .footer-all {
+    justify-content: space-evenly;
+  }
   .footer-copyright {
-    margin-left: 40%;
+    margin: 0px 0px;
   }
   .footer-nav-list {
     display: inherit;
