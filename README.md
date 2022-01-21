@@ -1,4 +1,8 @@
-test--readme
-スクール「COACH TECH」にて履修したホームページサイト
 
-# 20211226kitamura
+スクール「COACH TECH」にて履修
+
+# コーポレートサイト（COACHTECH）
+HTML5 
+CSS
+javascript
+レスポンシブデザイン
