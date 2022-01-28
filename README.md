@@ -23,6 +23,13 @@
 
 指定されていなかった部分は自分なりの配置や色を工夫し、多少のオリジナリティを意識して取り組みました。
 
+
+
+# サイトURL
+https://unruffled-perlman-e058ee.netlify.app/
+
+
+
 # 使用技術
 HTML5   
 CSS  
